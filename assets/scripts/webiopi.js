@@ -115,7 +115,7 @@ function WebIOPi() {
 
 	var jquery = document.createElement('script');
 	jquery.type = 'text/javascript';
-	jquery.src = './assets/scripts/jquery.js';
+	jquery.src = '/assets/scripts/jquery.js';
 //	if (!isMobile()) {
 		jquery.onload = function() {
 			w().init();
@@ -149,7 +149,7 @@ function WebIOPi() {
 	var style = document.createElement('link');
 	style.rel = "stylesheet";
 	style.type = 'text/css';
-	style.href = './assets/css/webiopi.css';
+	style.href = '/assets/css/webiopi.css';
 	head.appendChild(style);
 
 /*
