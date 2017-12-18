@@ -20,13 +20,11 @@ def turnOffMotors():
 atexit.register(turnOffMotors)
 
 def forward_speed_up():
-	turn_completed()
 	rearMotor.run(Raspi_MotorHAT.FORWARD)
 	rearMotor.setSpeed(255)
 	time.sleep(0.01)
 		
 def reverse_speed_up():
-	turn_completed()
 	rearMotor.run(Raspi_MotorHAT.BACKWARD)
 	rearMotor.setSpeed(255)
 	time.sleep(0.01)
