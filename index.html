@@ -5,8 +5,8 @@
 <title>Monster Truck</title>
 <meta name="viewport"
 	content="height = device-height, width = 360, initial-scale=1.0, minimum-scale=1.0, user-scalable = no" />
-<script type="text/javascript" src="./jquery.js"></script>
-<script type="text/javascript" src="./webiopi.js"></script>
+<script type="text/javascript" src="./assets/scripts/jquery.js"></script>
+<script type="text/javascript" src="./assets/scripts/webiopi.js"></script>
 <script type="text/javascript">
 	function init() {
 	}
@@ -106,7 +106,7 @@ a:hover {
 	height: 100%;
 	width: 100%;
 	display: none;
-	background-image: url('./btn-stop.png');
+	background-image: url('./assets/images/btn-stop.png');
 	background-size: cover;
 }
 </style>
@@ -118,21 +118,21 @@ a:hover {
 		<div class="container">
 			<div class="center">
 				<div class="arrow-top" onmousedown="Forward()" onmouseup="SlowDown()">
-					<a href="#"><img src="./arrow-top.png" alt="Up"></a>
+					<a href="#"><img src="./assets/images/arrow-top.png" alt="Up"></a>
 				</div>
 				<div class="middle-row">
 					<div class="arrow-left" onmousedown="TurnLeft()" onmouseup="TurnCompleted()">
-						<a href="#"><img src="./arrow-left.png" alt="Up"></a>
+						<a href="#"><img src="./assets/images/arrow-left.png" alt="Up"></a>
 					</div>
 					<div class="stop" onmousedown="Stop()">
-						<a href="#"><img src="./btn-stop.png" alt="Up"></a>
+						<a href="#"><img src="./assets/images/btn-stop.png" alt="Up"></a>
 					</div>
 					<div class="arrow-right" onmousedown="TurnRight()" onmouseup="TurnCompleted()">
-						<a href="#"><img src="./arrow-right.png" alt="Up"></a>
+						<a href="#"><img src="./assets/images/arrow-right.png" alt="Up"></a>
 					</div>
 				</div>
 				<div class="arrow-down" onmousedown="Reverse()" onmouseup="SlowDown()">
-					<a href="#"><img src="./arrow-down.png" alt="Up"></a>
+					<a href="#"><img src="./assets/images/arrow-down.png" alt="Up"></a>
 				</div>
 			</div>
 		</div>
